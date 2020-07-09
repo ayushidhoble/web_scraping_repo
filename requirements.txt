@@ -1,0 +1,5 @@
+pandas
+urllib3
+
+beautifulsoup4
+requests

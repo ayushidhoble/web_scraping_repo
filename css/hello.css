@@ -1,0 +1,149 @@
+element.style {
+}
+.nav-search .jobs-search-box__input-icon {
+    top: 0;
+    left: 0;
+    padding: 5px 4px;
+    height: 100%;
+    border-radius: 0 2px 2px 0;
+    width: 28px;
+}
+.jobs-search-box__input-icon {
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+    left: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.75);
+    display: flex;
+    align-items: center;
+}
+.jobs-search-box__input-icon {
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+    left: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.75);
+    display: flex;
+    align-items: center;
+}
+label {
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    font-weight: 400;
+    color: rgba(0,0,0,.9);
+    display: block;
+    margin: 1.2rem 0 .3rem;
+}
+abbr, audio, b, body, canvas, caption, cite, code, del, dfn, em, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, mark, object, q, samp, small, span, strong, summary, tbody, td, tfoot, th, thead, time, tr, var, video {
+    outline: 0;
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+label {
+    cursor: default;
+}
+.large-header, body, h1, p {
+    font-weight: 400;
+    color: rgba(0,0,0,.9);
+}
+body, p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+}
+body {
+    line-height: 1;
+}
+html.artdeco {
+    -webkit-font-smoothing: antialiased;
+}
+:root {
+    --artdeco-typography-mono: SF Mono,Consolas,Roboto Mono,Noto Mono,Droid Mono,Fira Mono,Ubuntu Mono,Oxygen Mono,Lucida Console,Menlo,Monaco,monospace;
+    --artdeco-typography-sans: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+    --artdeco-typography-serif: Noto Serif,Droid Serif,Georgia,serif;
+    --artdeco-typography-ar: Arabic UI Display,Geeza Pro,Simplified Arabic,var(--artdeco-typography-sans);
+    --artdeco-typography-ja: Meiryo,Yu Gothic,Hiragino Kaku Gothic Pro,Hiragino Sans,var(--artdeco-typography-sans);
+    --artdeco-typography-ko: Malgun Gothic,Apple SD Gothic Neo,var(--artdeco-typography-sans);
+    --artdeco-typography-th: Leelawadee,Thonburi,var(--artdeco-typography-sans);
+    --artdeco-typography-zh: Microsoft Yahei,PingFang SC,PingFang TC,Hiragino Sans,Hiragino Kaku Gothic Pro,var(--artdeco-typography-sans);
+}
+:root {
+    --black: #000;
+    --black-a90: rgba(0,0,0,0.9);
+    --black-a75: rgba(0,0,0,0.75);
+    --black-a60: rgba(0,0,0,0.6);
+    --black-a45: rgba(0,0,0,0.45);
+    --black-a35: rgba(0,0,0,0.35);
+    --black-a30: rgba(0,0,0,0.3);
+    --black-a25: rgba(0,0,0,0.3);
+    --black-a15: rgba(0,0,0,0.15);
+    --black-a08: rgba(0,0,0,0.08);
+    --black-a04: rgba(0,0,0,0.04);
+    --white: #fff;
+    --white-a85: hsla(0,0%,100%,0.85);
+    --white-a70: hsla(0,0%,100%,0.7);
+    --white-a55: hsla(0,0%,100%,0.55);
+    --white-a40: hsla(0,0%,100%,0.4);
+    --white-a25: hsla(0,0%,100%,0.25);
+    --white-a12: hsla(0,0%,100%,0.12);
+    --white-a06: hsla(0,0%,100%,0.06);
+    --blue0: #e6f7ff;
+    --blue1: #caedff;
+    --blue2: #98d8f4;
+    --blue3: #65c3e8;
+    --blue4: #33aada;
+    --blue5: #0091ca;
+    --blue6: #0084bf;
+    --blue7: #0073b1;
+    --blue8: #006097;
+    --blue9: #004b7c;
+    --blue10: #003f67;
+    --purple0: #f5f5fe;
+    --purple1: #e6e6ff;
+    --purple2: #cacafc;
+    --purple3: #b2b0fa;
+    --purple4: #9896f2;
+    --purple5: #827be9;
+    --purple6: #756ddd;
+    --purple7: #665ed0;
+    --purple8: #544bc2;
+    --purple9: #4034b0;
+    --purple10: #2c2b9d;
+    --red0: #fef2f1;
+    --red1: #ffe0db;
+    --red2: #ffbcba;
+    --red3: #ff999a;
+    --red4: #ff6c70;
+    --red5: #ff2c33;
+    --red6: #ee1620;
+    --red7: #d11124;
+    --red8: #b10823;
+Show All Properties (103 more)
+}
+html {
+    font-size: 62.5%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
